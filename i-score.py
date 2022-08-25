@@ -15,6 +15,7 @@ driver.get('https://www.med.nagoya-u.ac.jp/neurogenetics/i_Score/i_score.html')
 
 start_time = time.time()
 
+#Criando a tabela
 tabela = []
 
 
