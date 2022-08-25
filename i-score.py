@@ -18,7 +18,7 @@ start_time = time.time()
 #Criando a tabela
 tabela = []
 
-
+#funcao para analisar os inputs feitos no site 
 def analisar(seq):
    
     ui.WebDriverWait(driver, 120).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="Input"]')))
